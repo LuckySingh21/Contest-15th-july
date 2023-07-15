@@ -22,7 +22,7 @@ async function getMenu() {
                     <h4 class="cardText">${data[i].name}</h4>
                 </div>
                 <div>
-                    <h4 class="cardText">${data[i].price}/-</h4>
+                    <h4 class="cardText">$${data[i].price}/-</h4>
                 </div>
             </div>
             <div class="lowerRight">
